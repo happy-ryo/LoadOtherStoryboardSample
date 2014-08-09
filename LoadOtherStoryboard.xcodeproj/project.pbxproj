@@ -21,6 +21,7 @@
 		899059C619963F4A00BF73A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899059A819963F4A00BF73A2 /* UIKit.framework */; };
 		899059CE19963F4A00BF73A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 899059CC19963F4A00BF73A2 /* InfoPlist.strings */; };
 		899059D019963F4A00BF73A2 /* LoadOtherStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899059CF19963F4A00BF73A2 /* LoadOtherStoryboardTests.m */; };
+		899059DA1996408000BF73A2 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899059D91996408000BF73A2 /* Other.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		899059CB19963F4A00BF73A2 /* LoadOtherStoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoadOtherStoryboardTests-Info.plist"; sourceTree = "<group>"; };
 		899059CD19963F4A00BF73A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		899059CF19963F4A00BF73A2 /* LoadOtherStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadOtherStoryboardTests.m; sourceTree = "<group>"; };
+		899059D91996408000BF73A2 /* Other.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Other.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		82CDD0561209AC9842F7EC2A /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				899059D91996408000BF73A2 /* Other.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				899059BD19963F4A00BF73A2 /* Images.xcassets in Resources */,
+				899059DA1996408000BF73A2 /* Other.storyboard in Resources */,
 				899059AF19963F4A00BF73A2 /* InfoPlist.strings in Resources */,
 				899059B819963F4A00BF73A2 /* Main.storyboard in Resources */,
 			);
@@ -464,6 +468,7 @@
 				899059D519963F4A00BF73A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		899059D619963F4A00BF73A2 /* Build configuration list for PBXNativeTarget "LoadOtherStoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +477,7 @@
 				899059D819963F4A00BF73A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
