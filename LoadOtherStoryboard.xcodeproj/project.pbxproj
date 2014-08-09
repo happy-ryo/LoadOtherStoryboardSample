@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82CDD483BEFAC9CCDE19F42E /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDD0E2551A8FEF617F2145 /* OtherViewController.m */; };
 		899059A519963F4A00BF73A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899059A419963F4A00BF73A2 /* Foundation.framework */; };
 		899059A719963F4A00BF73A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899059A619963F4A00BF73A2 /* CoreGraphics.framework */; };
 		899059A919963F4A00BF73A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899059A819963F4A00BF73A2 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82CDD0E2551A8FEF617F2145 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		82CDD78FF10741E681DFB818 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		899059A119963F4A00BF73A2 /* LoadOtherStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadOtherStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899059A419963F4A00BF73A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		899059A619963F4A00BF73A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				899059D91996408000BF73A2 /* Other.storyboard */,
+				82CDD0E2551A8FEF617F2145 /* OtherViewController.m */,
+				82CDD78FF10741E681DFB818 /* OtherViewController.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				899059BB19963F4A00BF73A2 /* ViewController.m in Sources */,
 				899059B519963F4A00BF73A2 /* AppDelegate.m in Sources */,
 				899059B119963F4A00BF73A2 /* main.m in Sources */,
+				82CDD483BEFAC9CCDE19F42E /* OtherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
