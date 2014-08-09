@@ -79,6 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82CDD0561209AC9842F7EC2A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		8990599819963F4A00BF73A2 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +126,7 @@
 				899059BA19963F4A00BF73A2 /* ViewController.m */,
 				899059BC19963F4A00BF73A2 /* Images.xcassets */,
 				899059AB19963F4A00BF73A2 /* Supporting Files */,
+				82CDD0561209AC9842F7EC2A /* Other */,
 			);
 			path = LoadOtherStoryboard;
 			sourceTree = "<group>";
